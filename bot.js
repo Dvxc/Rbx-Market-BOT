@@ -6,14 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Then') {
-    	message.channel.send('He Die');
+    if (message.content === 'Nigga') {
+    	message.channel.send('No u');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'Account') {
-    	message.reply('Later');
+    	message.reply('STILL FIXING THIS BOT');
   	}
 });
 
