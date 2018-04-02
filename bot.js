@@ -12,12 +12,6 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'bing') {
-    	message.reply('BONG!');
-  	}
-});
-
-client.on('message', message => {
     if (message.content === 'Nigga') {
     	message.reply('No U');
   	}
