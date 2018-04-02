@@ -12,8 +12,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Tell-Story') {
-    	message.reply('There A Discord Server Named RBX-MARKET,AND PPL ASKING FOR GIVEAWAY,THEN');
+    if (message.content === 'Account') {
+    	message.reply('FKING-NIGGA-GTFO');
   	}
 });
 
