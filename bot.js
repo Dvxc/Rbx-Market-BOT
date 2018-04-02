@@ -41,6 +41,18 @@ client.on('message', message => {
   	}
 });
 
+function readTextFile() {
+  var rawFile = new XMLHttpRequest();
+  rawFile.open("GET", "testing.txt", true);
+  rawFile.onreadystatechange = function() {
+    if (rawFile.readyState === 4) {
+      var allText = rawFile.responseText;
+      document.getElementById("textSection").innerHTML = allText;
+    }
+  }
+  rawFile.send();
+}
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
