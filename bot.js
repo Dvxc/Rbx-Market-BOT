@@ -35,6 +35,12 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Shop') {
+    	message.reply('@Amy#8965 Shop,https://selly.gg/@Loundy');
+  	}
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
