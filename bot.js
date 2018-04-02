@@ -24,13 +24,13 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Spotify') {
+    if (message.content === 'spotify') {
     	message.reply('https://pastebin.com/nPHyEisS');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'Giveaway Please') {
+    if (message.content === 'Giveaway please') {
     	message.reply('Next Time BB <3');
   	}
 });
