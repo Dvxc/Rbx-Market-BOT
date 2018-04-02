@@ -6,14 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
+    if (message.content === 'What Happend Then') {
+    	message.channel.send('Banned');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'Nigga') {
-    	message.reply('No U');
+    if (message.content === 'Tell Me Story') {
+    	message.reply('There A Discord Server Named RBX-MARKET,AND PPL ASKING FOR GIVEAWAY,THEN');
   	}
 });
 
