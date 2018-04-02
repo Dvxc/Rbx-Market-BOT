@@ -37,7 +37,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Shop') {
-    	message.reply('Check Out Amy's Shop,https://selly.gg/@Loundy');
+    	message.reply('Check Out Amy Shop,https://selly.gg/@Loundy');
   	}
 });
 
