@@ -22,5 +22,12 @@ client.on('message', message => {
     	message.reply('The Most Handsome People In The World');
   	}
 });
+
+client.on('message', message => {
+    if (message.content === 'Spotify') {
+    	message.reply('https://pastebin.com/nPHyEisS');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
