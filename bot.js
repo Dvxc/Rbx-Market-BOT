@@ -18,7 +18,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Movic Handsome') {
+    if (message.content === 'Nigga') {
     	message.reply('No U');
   	}
 });
