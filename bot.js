@@ -18,7 +18,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Movic') {
+    if (message.content === 'Tell Me About Movic') {
     	message.reply('The Most Handsome People In The World');
   	}
 });
