@@ -29,5 +29,12 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Giveaway Please') {
+    	message.reply('Next Time BB <3');
+  	}
+});
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
