@@ -41,8 +41,6 @@ client.on('message', message => {
   	}
 });
 
-});
-
 client.on('message', message => {
     if (message.content === 'When the account is ready?') {
     	message.reply('Ask Movic,He Is My Dad');
