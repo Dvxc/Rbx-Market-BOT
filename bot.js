@@ -53,5 +53,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'where is the group') {
+    	message.reply('https://www.roblox.com/My/Groups.aspx?gid=4020657');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
