@@ -85,19 +85,5 @@ client.on('message', message => {
     
 });
 
-client.on('message', message => {
-    if (message.content === '?') {
-    	message.reply('Nani??!!!');
-  	}
-    
-});
-
-client.on('message', message => {
-    if (message.content === 'Dont Ping Pls') {
-    	message.reply('Sorry');
-  	}
-    
-});
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
