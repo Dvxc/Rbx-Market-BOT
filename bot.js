@@ -59,10 +59,6 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message => {
-    if (message.content === 'kys bot') {
-    	message.reply('Then Why U Progam Me?');
-  	}
-});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
