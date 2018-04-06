@@ -58,5 +58,11 @@ client.on('message', message => {
     	message.reply('https://www.roblox.com/My/Groups.aspx?gid=4020657');
   	}
 });
+
+client.on('message', message => {
+    if (message.content === 'kys bot') {
+    	message.reply('Then Why U Progam Me?');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
