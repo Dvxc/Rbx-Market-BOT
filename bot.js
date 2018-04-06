@@ -71,5 +71,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Fuck') {
+    	message.reply('You Have Been Warned In **Rbx Shop**, Reason: u ugly');
+  	}
+    
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
