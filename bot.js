@@ -63,6 +63,11 @@ client.on('message', message => {
     if (message.content === 'Partner') {
     	message.reply('https://discord.gg/bc5ZpKP');
   	}
+});tfs
+client.on('message', message => {
+    if (message.content === 'stfu') {
+    	message.reply('You Have Been Warned In **Rbx Shop**, Reason: u ugly');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
