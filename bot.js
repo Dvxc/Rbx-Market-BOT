@@ -85,5 +85,24 @@ client.on('message', message => {
     
 });
 
+client.on('message', message => {
+    if (message.content === 'Reroll') {
+    	message.reply('Waitting Confirmation!');
+  	}
+    
+});
+
+client.on('message', message => {
+    if (message.content === 'reroll') {
+    	message.reply('Waitting Confirmation!');
+  	}
+    
+});
+client.on('message', message => {
+    if (message.content === 'REROLL') {
+    	message.reply('Waitting Confirmation!');
+  	}
+    
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
