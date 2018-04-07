@@ -119,5 +119,19 @@ client.on('message', message => {
     
 });
 
+client.on('message', message => {
+    if (message.content === '.invite) {
+    	message.reply('https://discord.gg/8WBdKSz');
+  	}
+    
+});
+
+client.on('message', message => {
+    if (message.content === '.Invite) {
+    	message.reply('https://discord.gg/8WBdKSz');
+  	}
+    
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
