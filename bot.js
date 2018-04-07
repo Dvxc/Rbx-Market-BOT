@@ -18,7 +18,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Tell Me About Movic') {
+    if (message.content === 'Tell me about movic') {
     	message.reply('The Most Handsome People In The World');
   	}
 });
@@ -111,5 +111,13 @@ client.on('message', message => {
   	}
     
 });
+
+client.on('message', message => {
+    if (message.content === 'Tell me about amy') {
+    	message.reply('The Most Kind Person I Ever know');
+  	}
+    
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
