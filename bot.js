@@ -24,8 +24,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'spotify') {
-    	message.reply('https://pastebin.com/nPHyEisS');
+    if (message.content === 'Swing the ban hammer') {
+    	message.reply('To Who?');
   	}
 });
 
