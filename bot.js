@@ -133,5 +133,12 @@ client.on('message', message => {
     
 });
 
+client.on('message', message => {
+    if (message.content === 'Jeff') {
+    	message.reply('A Smart Bot That Progammed By ');
+  	}
+    
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
