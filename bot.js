@@ -135,9 +135,14 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Jeff') {
-    	message.reply('A Smart Bot That Progammed By ');
+    	message.channel.send('Smart Bot That Progammed By Movic');
   	}
-    
+});
+
+client.on('message', message => {
+    if (message.content === 'jeff') {
+    	message.channel.send('Smart Bot That Progammed By Movic');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
