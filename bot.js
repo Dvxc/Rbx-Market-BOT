@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Nigga') {
-    	message.channel.send('No u');
+    	message.channel.send(':star:**COMMAND**');
   	}
 });
 
