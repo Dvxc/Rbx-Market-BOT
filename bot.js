@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Nigga') {
-    	message.channel.send(':star:**COMMAND**');
+    	message.channel.send('No U');
   	}
 });
 
@@ -36,32 +36,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Shop') {
-    	message.reply('Check Out Amy Shop,https://selly.gg/@Loundy');
-  	}
-});
-
-client.on('message', message => {
     if (message.content === 'When the account is ready?') {
     	message.reply('Ask Movic,He Is My Dad');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'where is the group') {
-    	message.reply('https://www.roblox.com/My/Groups.aspx?gid=4020657');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === '!Group') {
-    	message.reply('https://www.roblox.com/My/Groups.aspx?gid=4020657');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'Partner') {
-    	message.reply('https://discord.gg/bc5ZpKP');
   	}
 });
 
@@ -80,55 +56,48 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Hi') {
-    	message.reply('Hello!,Welcome To **RBX SHOP**!!');
+    	message.reply('Hello!,Welcome To **Movic Community**!!');
   	}
     
 });
 
 client.on('message', message => {
     if (message.content === 'Reroll') {
-    	message.reply('Waitting Confirmation!');
+    	message.reply('Please Wait');
   	}
     
 });
 
 client.on('message', message => {
     if (message.content === 'reroll') {
-    	message.reply('Waitting Confirmation!');
+    	message.reply('Please Wait');
   	}
     
 });
 client.on('message', message => {
     if (message.content === 'REROLL') {
-    	message.reply('Waitting Confirmation!');
+    	message.reply('Can U WAIT?!');
   	}
     
 });
 
 client.on('message', message => {
     if (message.content === 'hi') {
-    	message.reply('Hello!,Welcome To **RBX SHOP**!!');
-  	}
-    
-});
-
-client.on('message', message => {
-    if (message.content === 'Tell me about amy') {
-    	message.reply('The Most Kind Person I Ever know');
+    	message.reply('Hello!,Welcome To **Movic Community**!!');
   	}
     
 });
 
 client.on('message', message => {
     if (message.content === '.invite') {
-    	message.reply('https://discord.gg/8WBdKSz');
+    	message.reply('https://discord.gg/KfHwu');
   	}
     
 });
 
 client.on('message', message => {
     if (message.content === '.Invite') {
-    	message.reply('https://discord.gg/8WBdKSz');
+    	message.reply('https://discord.gg/KfHwu');
   	}
     
 });
