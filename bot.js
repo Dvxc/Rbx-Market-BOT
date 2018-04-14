@@ -43,13 +43,13 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'stfu') {
-    	message.reply('You Have Been Warned In **Rbx Shop**, Reason: u ugly');
+    	message.reply('You Have Been Warned In **Movic Community**, Reason: Its A Fake Warning, Dont worry');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'Fuck') {
-    	message.reply('You Have Been Warned In **Rbx Shop**, Reason: u ugly');
+    	message.reply('You Have Been Warned In **Movic Community**, Reason: Its A Fake Warning, Dont worry');
   	}
     
 });
