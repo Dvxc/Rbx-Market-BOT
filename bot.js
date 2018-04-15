@@ -19,7 +19,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Tell me about movic') {
-    	message.reply('The Most Handsome People In The World');
+    	message.reply('The Most Handsome Person In The World');
   	}
 });
 
